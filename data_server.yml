@@ -1,0 +1,5 @@
+volume_server:
+    container_name: volume_server
+    image: leodotcloud/volume_server
+    volumes_from:
+        - volume_data

@@ -1,0 +1,9 @@
+volume_client:
+    container_name: volume_client
+    image: leodotcloud/volume_client
+    volumes_from:
+        - volume_data
+
+volume_data:
+    container_name: volume_data
+    image: leodotcloud/volume_data
